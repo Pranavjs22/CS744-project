@@ -147,7 +147,7 @@ the output of your program matches the expected output exactly.
 You can compile and run your code with a single testcase in the following manner
 (where testcase.c is your testcase of interest):
     gcc -Iauxiliary/ testcases/testcase.c auxiliary/emufs-ops.c auxiliary/emufs-disk.c
-    testcases/a.out
+    ./a.out
 Testcase1 and Testcase2 are for testing files only. You can just implement the file
 related functions along with encryption. If you implement the directory functions
 consider it a bonus. Testcase3 and Testcase4 are for this. Note that Testcase4 should
